@@ -1,0 +1,61 @@
+.admin-container {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://img.freepik.com/premium-photo/billions-stars-night-sky-cluster-stars-galaxies-cosmic-nebulae-birth-galaxy-boundless-cosmos-infinite-universe-3d-render_91497-8812.jpg') repeat;
+    animation: twinkling 10s infinite;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .vertical-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100px; /* Adjust the width as needed */
+    background-color: rgba(0, 0, 0, 0.7); /* Add a background color for better readability */
+    color: white;
+    padding: 20px;
+    animation: appearAnimation 2s infinite;
+  }
+  
+  .vertical-text p {
+    writing-mode: vertical-lr; /* Change from vertical-rl to vertical-lr */
+    transform: rotate(180deg);
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  @keyframes appearAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    80% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+  }
+  
+  
+  
+  
+  
+  
