@@ -1,5 +1,5 @@
 
-# MERN STACK project
+# ZM MERN STACK project
 
 Our ZM MERN Stack E-commerce initiative modernizes Point-of-Sale systems. Powered by MongoDB, Express.js, React, and Node.js, it delivers seamless shopping. Users easily explore and order while our tech ensures efficient data handling, smooth communication, and dynamic interfaces. This redefines experiences, optimizing operations for modern enterprises.
 
@@ -38,13 +38,13 @@ Start the server
 
 
 
-## 🔗 Live URL
+##  Live URL
 
 https://wicked-boot-lion.cyclic.cloud/
 
 
 
-# 🔗 Hi 👋, I'm Wania Khan
+#  Hi 👋, I'm Wania Khan
 A passionate frontend developer
 
 All of my social media accounts available at https://bio.site/Wania_khan
