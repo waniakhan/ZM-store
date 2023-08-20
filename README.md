@@ -65,7 +65,7 @@ I'm an enthusiastic frontend developer with a deep passion for creating intuitiv
 #### A) SignUp User
 
 ```http
-  post /api/signup
+  POST /api/signup
 ```
 
 | Parameter | Type     | Description                |
@@ -77,7 +77,7 @@ I'm an enthusiastic frontend developer with a deep passion for creating intuitiv
 #### B) Login User
 
 ```http
-  post /api/login
+  POST /api/login
 ```
 
 | Parameter | Type     | Description                |
@@ -130,7 +130,7 @@ I'm an enthusiastic frontend developer with a deep passion for creating intuitiv
 
 
 ```http
-  PUT /api/update-product
+  DELETE /api/delete-product
 ```
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
